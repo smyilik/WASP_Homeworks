@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using System.IO;
@@ -13,7 +13,7 @@ namespace WASP_Lessons
         public bool isWheelchairAccessible;
         public bool hasParkAndRide;
         public bool hasNearbyCableCar;
-        public List<Station> transfers;
+        public List<Station> transfers = new List<Station>();
         public Station(string name, string color)
         {
             this.name = name;
