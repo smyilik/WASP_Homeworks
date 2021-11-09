@@ -37,13 +37,11 @@ namespace WASP_Lessons
         }
         public void AddStation(string name, string color)
         {
-            Station station = new Station(name, color);
-            stations.Add(station);
+            stations.Add(new Station(name, color));
         }
         public void RemoveStation(string name)
         {
-            Station station = new Station(name, color);
-            stations.Remove(station);
+            stations.Remove(new Station(name, color));
         }
         public Station FindStationByName(string name)
         {
