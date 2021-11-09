@@ -7,7 +7,7 @@ namespace WASP_Lessons
 {
     public class Line
     {
-        public List<Station> stations;
+        public List<Station> stations = new List<Station>();
         public string name;
         public string color;
         public Line(string name, string color)
@@ -43,7 +43,7 @@ namespace WASP_Lessons
         {
             stations.Remove(new Station(name, color));
         }
-        public Station FindStationByName(string name)
+        /*public Station FindStationByName(string name)
         {
             int len = stations.Count;
             for(int i = 0; i < len; i++)
@@ -53,7 +53,7 @@ namespace WASP_Lessons
                     return stations[i];
                 }
             }
-        }
+        }*/
         public List<Station> GetStationList(string name)
         {
             return stations;
