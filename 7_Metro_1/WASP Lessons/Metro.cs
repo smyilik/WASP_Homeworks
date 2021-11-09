@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Linq;
@@ -20,13 +20,12 @@ namespace WASP_Lessons
         }
         public void AddLine(string name, string color)
         {
-            Line line = new Line(name, color);
-            lines.Add(line);
+            lines.Add(new Line(name, color));
         }
         public void RemoveLine(string name)
         {
-            int len = lines.Count;
-            for(int i = 0; i < len; i++)
+            int lineamount = lines.Count;
+            for(int i = 0; i < lineamount; i++)
             {
                 if (lines[i].name == name)
                 {
