@@ -1,0 +1,14 @@
+C:\Users\sanya\OneDrive\Рабочий стол\projects\c#\09_11_21 lesson\09_11_21 lesson\bin\Debug\netcoreapp3.1\09_11_21 lesson.exe
+C:\Users\sanya\OneDrive\Рабочий стол\projects\c#\09_11_21 lesson\09_11_21 lesson\bin\Debug\netcoreapp3.1\09_11_21 lesson.deps.json
+C:\Users\sanya\OneDrive\Рабочий стол\projects\c#\09_11_21 lesson\09_11_21 lesson\bin\Debug\netcoreapp3.1\09_11_21 lesson.runtimeconfig.json
+C:\Users\sanya\OneDrive\Рабочий стол\projects\c#\09_11_21 lesson\09_11_21 lesson\bin\Debug\netcoreapp3.1\09_11_21 lesson.runtimeconfig.dev.json
+C:\Users\sanya\OneDrive\Рабочий стол\projects\c#\09_11_21 lesson\09_11_21 lesson\bin\Debug\netcoreapp3.1\09_11_21 lesson.dll
+C:\Users\sanya\OneDrive\Рабочий стол\projects\c#\09_11_21 lesson\09_11_21 lesson\bin\Debug\netcoreapp3.1\09_11_21 lesson.pdb
+C:\Users\sanya\OneDrive\Рабочий стол\projects\c#\09_11_21 lesson\09_11_21 lesson\obj\Debug\netcoreapp3.1\09_11_21 lesson.csproj.AssemblyReference.cache
+C:\Users\sanya\OneDrive\Рабочий стол\projects\c#\09_11_21 lesson\09_11_21 lesson\obj\Debug\netcoreapp3.1\09_11_21 lesson.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sanya\OneDrive\Рабочий стол\projects\c#\09_11_21 lesson\09_11_21 lesson\obj\Debug\netcoreapp3.1\09_11_21 lesson.AssemblyInfoInputs.cache
+C:\Users\sanya\OneDrive\Рабочий стол\projects\c#\09_11_21 lesson\09_11_21 lesson\obj\Debug\netcoreapp3.1\09_11_21 lesson.AssemblyInfo.cs
+C:\Users\sanya\OneDrive\Рабочий стол\projects\c#\09_11_21 lesson\09_11_21 lesson\obj\Debug\netcoreapp3.1\09_11_21 lesson.csproj.CoreCompileInputs.cache
+C:\Users\sanya\OneDrive\Рабочий стол\projects\c#\09_11_21 lesson\09_11_21 lesson\obj\Debug\netcoreapp3.1\09_11_21 lesson.dll
+C:\Users\sanya\OneDrive\Рабочий стол\projects\c#\09_11_21 lesson\09_11_21 lesson\obj\Debug\netcoreapp3.1\09_11_21 lesson.pdb
+C:\Users\sanya\OneDrive\Рабочий стол\projects\c#\09_11_21 lesson\09_11_21 lesson\obj\Debug\netcoreapp3.1\09_11_21 lesson.genruntimeconfig.cache
