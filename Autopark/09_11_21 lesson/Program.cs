@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 
 namespace _09_11_21_lesson
@@ -82,7 +82,7 @@ namespace _09_11_21_lesson
             {
                 this.name = name;
             }
-            public void PrintInfo()
+            public string PrintInfo()
             {
                 string str = "";
                 for (int i = 0; i < passengerCars.Count; i++)
@@ -102,6 +102,7 @@ namespace _09_11_21_lesson
                         str += " ";
                     }
                 }
+                return str;
             }
         }
     }
