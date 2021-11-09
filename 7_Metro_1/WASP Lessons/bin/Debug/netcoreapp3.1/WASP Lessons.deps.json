@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "WASP Lessons/1.0.0": {
+        "runtime": {
+          "WASP Lessons.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WASP Lessons/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
