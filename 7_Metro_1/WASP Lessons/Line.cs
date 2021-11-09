@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using System.IO;
@@ -15,7 +15,10 @@ namespace WASP_Lessons
             this.name = name;
             this.color = color;
         }
-        //public GetStation(string )
+        public Station GetStation(string name)
+        {
+            return new Station(name, color);
+        }
         public string GetName()
         {
             return name;
