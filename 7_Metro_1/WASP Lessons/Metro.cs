@@ -8,7 +8,7 @@ namespace WASP_Lessons
 {
     public class Metro
     {
-        public List<Line> lines;
+        public List<Line> lines = new List<Line>();
         public string city;
         public Metro(string city)
         { 
@@ -20,7 +20,7 @@ namespace WASP_Lessons
         }
         public void AddLine(string name, string color)
         {
-            lines.Add(new Line(name, color));
+            this.lines.Add(new Line(name, color));
         }
         public void RemoveLine(string name)
         {
@@ -33,7 +33,7 @@ namespace WASP_Lessons
                 }
             }
         }
-        public List<Station> FindStation (string name)
+        /*public List<Station> FindStation(string name)
         {
             int lineamount = lines.Count, stationamount;
             Line line;
@@ -83,7 +83,7 @@ namespace WASP_Lessons
                     }
                 }
             }
-        }
+        }*/
         /*public void LoadStationsFromFile(string filename)
         {
             StreamReader r = new StreamReader("C:\\Users\\sanya\\OneDrive\\Рабочий стол\\" + filename);
