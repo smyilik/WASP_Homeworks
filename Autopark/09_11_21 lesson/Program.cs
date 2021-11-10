@@ -121,11 +121,7 @@ namespace _09_11_21_lesson
     {
         static void Main(string[] args)
         {
-            Dictionary<string, int> dict = new Dictionary<string, int>();
-            dict.Add("adfas", 1);
-            dict.Add("bnbrf", 2);
-            PassengerCar car = new PassengerCar("Porsche", 900, 2020, 2, dict);
-            Console.WriteLine(car.ToString());
+            
         }
     }
 }
