@@ -15,10 +15,6 @@ namespace WASP_Lessons
             this.name = name;
             this.color = color;
         }
-        public Station GetStation(string name)
-        {
-            return new Station(name, color);
-        }
         public string GetName()
         {
             return name;
@@ -43,17 +39,17 @@ namespace WASP_Lessons
         {
             stations.Remove(new Station(name, color));
         }
-        /*public Station FindStationByName(string name)
+        public Station GetStation(string name)
         {
-            int len = stations.Count;
-            for(int i = 0; i < len; i++)
+            foreach (Station station in stations)
             {
-                if (stations[i].name == name)
+                if (station.GetName() == name)
                 {
-                    return stations[i];
+                    return station;
                 }
             }
-        }*/
+            return null;
+        }
         public List<Station> GetStationList(string name)
         {
             return stations;
