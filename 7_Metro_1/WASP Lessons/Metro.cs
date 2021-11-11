@@ -33,57 +33,49 @@ namespace WASP_Lessons
                 }
             }
         }
-        /*public List<Station> FindStation(string name)
+        public List<Station> FindStation(string name)
         {
             int lineamount = lines.Count, stationamount;
-            Line line;
-            for (int i = 0; i < lineamount; i++)
+            foreach (Line line in lines)
             {
-                line = lines[i];
-                stationamount = line.stations.Count;
-                for (int j = 0; j < stationamount; j++)
+                foreach (Station station in GetStationList(line.GetName()))
                 {
-                    if (line.stations[j].name == name)
+                    if (station.GetName() == name)
                     {
-                        return line.stations;
+                        return GetStationList(line.GetName());
                     }
                 }
             }
+            return null;
         }
         public Station FindStation(string name, string lineName)
         {
-            int lineamount = lines.Count, stationsamount;
-            Line line;
-            for (int i = 0; i < lineamount; i++)
+            foreach (Line line in lines)
             {
-                line = lines[i];
-                stationsamount = line.stations.Count;
-                for(int j = 0; j < stationsamount; j++)
+                foreach (Station station in line.stations)
                 {
-                    if ((line.name == lineName) && (line.stations[j].name == name))
+                    if ((line.name == lineName) && (station.name == name))
                     {
-                        return line.stations[j];
+                        return station;
                     }
                 }
             }
+            return null;
         }
         public List<Station> GetStationList(string name)
         {
-            int lineamount = lines.Count, stationsamount;
-            Line line;
-            for (int i = 0; i < lineamount; i++)
+            foreach (Line line in lines)
             {
-                line = lines[i];
-                stationsamount = line.stations.Count;
-                for(int j = 0; j < stationsamount; j++)
+                foreach (Station station in line.stations)
                 {
-                    if (line.stations[j].name == name)
+                    if (station.name == name)
                     {
                         return line.stations;
                     }
                 }
             }
-        }*/
+            return null;
+        }
         /*public void LoadStationsFromFile(string filename)
         {
             StreamReader r = new StreamReader("C:\\Users\\sanya\\OneDrive\\Рабочий стол\\" + filename);
