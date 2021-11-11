@@ -23,7 +23,7 @@ namespace WASP_Lessons
         {
             this.name = name;
             this.color = color;
-            this.transfers = transfers;
+            foreach(Station h in transfers) { this.transfers.Add(h); }
         }
         public string GetName()
         {
