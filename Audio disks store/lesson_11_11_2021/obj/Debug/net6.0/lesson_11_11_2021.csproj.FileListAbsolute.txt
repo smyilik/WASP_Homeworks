@@ -1,0 +1,15 @@
+C:\Users\sanya\OneDrive\Рабочий стол\projects\c#\lesson_11_11_2021\lesson_11_11_2021\bin\Debug\net6.0\lesson_11_11_2021.exe
+C:\Users\sanya\OneDrive\Рабочий стол\projects\c#\lesson_11_11_2021\lesson_11_11_2021\bin\Debug\net6.0\lesson_11_11_2021.deps.json
+C:\Users\sanya\OneDrive\Рабочий стол\projects\c#\lesson_11_11_2021\lesson_11_11_2021\bin\Debug\net6.0\lesson_11_11_2021.runtimeconfig.json
+C:\Users\sanya\OneDrive\Рабочий стол\projects\c#\lesson_11_11_2021\lesson_11_11_2021\bin\Debug\net6.0\lesson_11_11_2021.dll
+C:\Users\sanya\OneDrive\Рабочий стол\projects\c#\lesson_11_11_2021\lesson_11_11_2021\bin\Debug\net6.0\ref\lesson_11_11_2021.dll
+C:\Users\sanya\OneDrive\Рабочий стол\projects\c#\lesson_11_11_2021\lesson_11_11_2021\bin\Debug\net6.0\lesson_11_11_2021.pdb
+C:\Users\sanya\OneDrive\Рабочий стол\projects\c#\lesson_11_11_2021\lesson_11_11_2021\obj\Debug\net6.0\lesson_11_11_2021.csproj.AssemblyReference.cache
+C:\Users\sanya\OneDrive\Рабочий стол\projects\c#\lesson_11_11_2021\lesson_11_11_2021\obj\Debug\net6.0\lesson_11_11_2021.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sanya\OneDrive\Рабочий стол\projects\c#\lesson_11_11_2021\lesson_11_11_2021\obj\Debug\net6.0\lesson_11_11_2021.AssemblyInfoInputs.cache
+C:\Users\sanya\OneDrive\Рабочий стол\projects\c#\lesson_11_11_2021\lesson_11_11_2021\obj\Debug\net6.0\lesson_11_11_2021.AssemblyInfo.cs
+C:\Users\sanya\OneDrive\Рабочий стол\projects\c#\lesson_11_11_2021\lesson_11_11_2021\obj\Debug\net6.0\lesson_11_11_2021.csproj.CoreCompileInputs.cache
+C:\Users\sanya\OneDrive\Рабочий стол\projects\c#\lesson_11_11_2021\lesson_11_11_2021\obj\Debug\net6.0\lesson_11_11_2021.dll
+C:\Users\sanya\OneDrive\Рабочий стол\projects\c#\lesson_11_11_2021\lesson_11_11_2021\obj\Debug\net6.0\ref\lesson_11_11_2021.dll
+C:\Users\sanya\OneDrive\Рабочий стол\projects\c#\lesson_11_11_2021\lesson_11_11_2021\obj\Debug\net6.0\lesson_11_11_2021.pdb
+C:\Users\sanya\OneDrive\Рабочий стол\projects\c#\lesson_11_11_2021\lesson_11_11_2021\obj\Debug\net6.0\lesson_11_11_2021.genruntimeconfig.cache
