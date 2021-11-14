@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -163,11 +163,11 @@ namespace ConsoleApplication1
             get { return audios; }
             set { audios = value; }
         }
-        /*public List<DVD> GetDVDs
+        public List<DVD> GetDVDs
         {
             get { return dvds; }
             set { dvds = value; }
-        }*/
+        }
         public virtual string ToString()
         {
             string str = "";
