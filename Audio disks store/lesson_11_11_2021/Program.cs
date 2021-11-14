@@ -100,7 +100,7 @@ namespace ConsoleApplication1
             return name + " " + genre + " " + artist + " " + recordingStudio + " " + songsNumber + " " + burnCount;
         }
     }
-    class DVD : Disk
+    public class DVD : Disk
     {
         protected string producer, filmCompany;
         protected int minutesCount;
@@ -191,7 +191,7 @@ namespace ConsoleApplication1
             store.audios.Remove(value);
             return store;
         }
-        /*public static Store operator +(Store store, DVD value)
+        public static Store operator +(Store store, DVD value)
         {
             store.dvds.Add(value);
             return store;
@@ -200,7 +200,7 @@ namespace ConsoleApplication1
         {
             store.dvds.Remove(value);
             return store;
-        }*/
+        }
     }
     public class Program
     {
@@ -210,19 +210,19 @@ namespace ConsoleApplication1
             store += new Audio("Morgenshtern", "Moscow", 65, "Dulo", "Rap");
             store += new Audio("Morgenshtern", "Moscow", 65, "Cadillac", "Rap");
             store += new Audio("Morgenshtern", "Moscow", 65, "Clown", "Rap");
-            /*store += new DVD("Christopher Columbus", "Warner Brothers", 120, "Harry Potter and the Philosophers Stone", "Adventure");
+            store += new DVD("Christopher Columbus", "Warner Brothers", 120, "Harry Potter and the Philosophers Stone", "Adventure");
             store += new DVD("Christopher Columbus", "Warner Brothers", 120, "Harry Potter and the Chamber of Secrets", "Adventure");
-            store += new DVD("Christopher Columbus", "Warner Brothers", 120, "Harry Potter and the Prisoner of Azkaban", "Adventure");*/
+            store += new DVD("Christopher Columbus", "Warner Brothers", 120, "Harry Potter and the Prisoner of Azkaban", "Adventure");
             store.GetAudios[0].Burn(new string[] { "Nominallo", "Rap", "Morgenshtern", "Moscow", "65" });
             Console.WriteLine(store.ToString());
             foreach (Audio a in store.GetAudios)
             {
                 Console.WriteLine(a.Name + a.DiskSize);
             }
-            /*foreach (DVD d in store.GetDVDs)
+            foreach (DVD d in store.GetDVDs)
             {
                 Console.WriteLine(d.Name + d.DiskSize);
-            }*/
+            }
         }
     }
 }
