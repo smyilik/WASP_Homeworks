@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,11 +19,7 @@ namespace WpfApp2
 {
     public partial class MainWindow : Window
     {
-        new Random red = new Random();
-        new Random green = new Random();
-        new Random blue = new Random();
-        new Random left = new Random();
-        new Random top = new Random();
+        new Random random = new Random();
 
         public MainWindow()
         {
@@ -41,15 +37,15 @@ namespace WpfApp2
                 .Content = ("Click me\nif you can");
             button
                 .Background = new SolidColorBrush(Color.FromRgb(
-                    (byte)red.Next(0, 255),
-                    (byte)green.Next(0, 255),
-                    (byte)blue.Next(0, 255)));
+                    (byte)random.Next(0, 255),
+                    (byte)random.Next(0, 255),
+                    (byte)random.Next(0, 255)));
             button.Width = 160;
             button.Height = 90;
             button.Margin = new Thickness
             {
-                Top = top.Next(-360, 360),
-                Left = left.Next(-590, 590)
+                Top = random.Next(-614, 614),
+                Left = random.Next(-1120, 1120)
             };
             grid.Children.Add(button);
             button.MouseEnter += Button_MouseEnter;
@@ -60,8 +56,8 @@ namespace WpfApp2
             Button button = sender as Button;
             button.Margin = new Thickness
             {
-                Top = top.Next(-360, 360),
-                Left = left.Next(-590, 590)
+                Top = random.Next(-614, 614),
+                Left = random.Next(-1120, 1120)
             };
         }
     }
